@@ -14,8 +14,8 @@ phases:
    commands:
     - echo building the app ...
     - npm run build
-artifacts:
- files:
+ artifacts:
+  files:
   - "**/*"
   discard-paths: no
   base-drectory: build
